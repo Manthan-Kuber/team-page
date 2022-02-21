@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding:1rem;
+}
+
+footer {
+  width: 100%;
+  padding: 1rem 0px 1rem 0px;
+  margin-top: auto;
+}
+
+.footer-text {
+  font: 0.875rem Montserrat, sans-serif;
+  color: #bdbdbd;
+  text-align: center;
+}
