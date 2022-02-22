@@ -47,12 +47,12 @@ body {
 
 .team-container{
   margin-top:4rem;
+  
 }
 
 .member-container {
-  border: 2px solid blue;
   display: flex;
-  min-width:15.6rem;
+  max-width:26.4rem;
 }
 
 .profile-info-wrapper {
@@ -80,8 +80,19 @@ body {
   padding: 0 0.7em 0.7em 0;
 }
 
+.team-container {
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:2rem;
+  justify-items:center;
+}
+
+.member-container:nth-child(even){
+  padding-top:5rem;
+}
+
 footer {
-  padding: 1rem 0px 1rem 0px;
+  padding: 13rem 0px 1rem;
   margin-top: auto;
   width: 100%;
 }
@@ -97,16 +108,35 @@ footer {
     display: flex;
     justify-content: space-evenly;
   }
+  .name{
+    font-size:1.8rem
+  }
+  .role{
+    font-size:1.2rem;
+  }
 }
+
 
 @media only screen and (min-width: 1024px) {
   .heading-container {
     display: flex;
     justify-content: space-evenly;
-    margin-top:11rem
+    margin:11rem 0rem;
   }
   .team-intro {
     font-size: 1.8rem;
   }
-  
+  .team-container {
+    grid-template-columns:repeat(3,1fr);
+  }
+  .member-container:nth-child(even) {
+    padding-top:0;
+  }
+  .member-container:nth-child(2), .member-container:nth-child(5){
+    padding-top:5rem;
+  }
+  .team-wrapper{
+    
+    justify-content:center;
+  }
 }
