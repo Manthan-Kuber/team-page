@@ -48,5 +48,5 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- GitHub [@your-username](https://github.com/Manthan-Kuber)
+- GitHub [@Manthan-Kuber](https://github.com/Manthan-Kuber)
 
