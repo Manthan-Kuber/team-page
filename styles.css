@@ -7,7 +7,7 @@
 }
 
 html{
-    font-size:100%;
+    font-size:62.5%;
 }
 
 body {
@@ -22,13 +22,13 @@ body {
 }
 
 .heading{
-    font: 2.25em PT Serif,sans-serif;
+    font: 3.6rem PT Serif,sans-serif;
     font-weight: bold;
     margin-top:4.438rem;
 }
 
 .subheading{
-    font:1.125em Poppins,sans-serif;
+    font:1.8rem Poppins,sans-serif;
     font-weight: 600;
     text-transform: uppercase;
     margin-top:2.375rem;
@@ -36,20 +36,20 @@ body {
 
 .team-intro{
     border:1px  red solid;
-    font:0.875em Poppins,sans-serif;
+    font:1.4rem Poppins,sans-serif;
     font-weight: 400;
     margin-top:0.625rem;
-    width:19rem;
+    max-width:45ch;
 }
 
 footer {
   width: 100%;
-  padding: 1rem 0px 0px 0px;
+  padding: 1em 0px 0px 0px;
   margin-top: auto;
 }
 
 .footer-text {
-  font: 0.875em Montserrat, sans-serif;
+  font: 1.4rem Montserrat, sans-serif;
   color: #bdbdbd;
   text-align: center;
 }
