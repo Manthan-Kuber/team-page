@@ -6,40 +6,39 @@
   box-sizing: border-box;
 }
 
-html{
-    font-size:62.5%;
+html {
+  font-size: 62.5%;
 }
 
 body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  padding:0.5rem;
+  padding: 0.5rem;
 }
 
-.main{
-    width:100%;
+.main {
+  width: 100%;
 }
 
-.heading{
-    font: 3.6rem PT Serif,sans-serif;
-    font-weight: bold;
-    margin-top:4.438rem;
+.heading {
+  font: 3.6rem PT Serif, sans-serif;
+  font-weight: bold;
+  margin-top: 4.438rem;
 }
 
-.subheading{
-    font:1.8rem Poppins,sans-serif;
-    font-weight: 600;
-    text-transform: uppercase;
-    margin-top:2.375rem;
+.subheading {
+  font: 1.8rem Poppins, sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: 2.375rem;
 }
 
-.team-intro{
-    border:1px  red solid;
-    font:1.4rem Poppins,sans-serif;
-    font-weight: 400;
-    margin-top:0.625rem;
-    max-width:45ch;
+.team-intro {
+  font: 1.4rem Poppins, sans-serif;
+  font-weight: 400;
+  margin-top: 0.625rem;
+  max-width: 45ch;
 }
 
 footer {
@@ -52,4 +51,21 @@ footer {
   font: 1.4rem Montserrat, sans-serif;
   color: #bdbdbd;
   text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .heading-container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .heading-container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .team-intro {
+    font-size: 1.8rem;
+  }
 }
