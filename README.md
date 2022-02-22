@@ -43,7 +43,8 @@ This application/site was created as a submission to a [DevChallenges](https://d
 - Understood CSS Grid
 - Improved knowledge of pseudo selectors
 - Learnt good CSS practices (Especially about units in CSS)
-- Improved on making layouts 
+- Improved on making layouts
+- Improved media queries 
 
 ## Contact
 
