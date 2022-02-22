@@ -127,16 +127,15 @@ footer {
     font-size: 1.8rem;
   }
   .team-container {
-    grid-template-columns:repeat(3,1fr);
+    grid-template-columns:repeat(3,auto);
+    margin-left:auto;
+    margin-right:auto;
+    max-width:160rem;
   }
   .member-container:nth-child(even) {
     padding-top:0;
   }
   .member-container:nth-child(2), .member-container:nth-child(5){
     padding-top:5rem;
-  }
-  .team-wrapper{
-    
-    justify-content:center;
   }
 }
