@@ -12,7 +12,6 @@
       Live Demo
     </a>
     <span> | </span>
-    
     <a href="https://devchallenges.io/challenges/hhmesazsqgKXrTkYkt0U">
       Challenge
     </a>
