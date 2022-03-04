@@ -22,7 +22,7 @@
 
 ## Table of Contents
 
-- [Screenshots](#screenshots)
+- [Overview](#overview)
 - [Learnings](#learnings)
 - [Contact](#contact)
 
